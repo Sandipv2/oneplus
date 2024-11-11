@@ -1,0 +1,94 @@
+body {
+  background-color: #f3f3f3 !important;
+}
+
+nav {
+  background-color: white !important;
+  z-index: 100;
+}
+
+nav img {
+  fill: red;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("images/hero-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.warpCharge {
+    height: 100vh;
+    background-image: url('images/warpCharge.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.warpCharge div {
+    width: 35%;
+    margin-left: 150px;
+}
+
+.features {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.features .details {
+  width: 50vw;
+  text-align: center;
+}
+
+.features .cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.bassEngineer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
+
+.bassEngineer .bassDetail{
+  width: 35%;
+
+}
+
+.bassEngineer img {
+  width: 100vw;
+}
+
+.compareSection {
+  height: 100vh;
+}
+
+.compareSection img {
+  width: 100%;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+}

@@ -9,6 +9,7 @@ nav {
 
 nav img {
   fill: red;
+  width: 8rem;
 }
 
 .hero {
@@ -37,7 +38,7 @@ nav img {
 }
 
 .features {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,19 +77,25 @@ nav img {
 }
 
 .compareSection {
-  height: 100vh;
+  height: auto;
+  padding: 3rem 0;
 }
 
 .compareSection img {
   width: 100%;
 }
 
-footer {
-  height: 50px;
-  background-color: black;
-  color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 12px;
+.priceSection .card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.priceSection .card:first-child:hover{
+  scale: 1.1;
+  border: 2px solid black;
+}
+
+.priceSection .card:last-child:hover{
+  scale: 1.1;
+  border: 2px solid red;
 }
